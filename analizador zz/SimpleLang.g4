@@ -63,17 +63,3 @@ INICIADOR
 WS
     : [ \t\r\n]+ -> skip
     ;
-=======
-<comando> ::= <nombre> { <opcion> } ;
-
-<opcion> ::= "-" <id> [ "=" <valor> ] ;
-
-<valor> ::= <numero> | <cadena> ;
-
-<nombre> ::= [a-zA-Z]+ ;
-
-<id> ::= [a-zA-Z]+ ;
-
-<numero> ::= [0-9]+ ;
-
-<cadena> ::= '"' { <caracter> } '"' ;
