@@ -24,8 +24,12 @@ git clone https://github.com/gabrielsaw21/53534.git
 3. Instalar las dependencias:
 En cmd: 
 ```bash
+cd 53534\analizador zz
+```
+```bash
 npm install
 ```
+
 
 4. Generar los archivos ANTLR:
    Abriendo el archivo en visual studio /ANALIZADOR ZZ /SimpleLang , luego abrir terminal y pegar:
