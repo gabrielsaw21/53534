@@ -1,4 +1,3 @@
-<<<<<<< HEAD:analizador zz/SimpleLang.g4
 grammar SimpleLang;
 
 // Regla inicial
@@ -78,4 +77,3 @@ WS
 <numero> ::= [0-9]+ ;
 
 <cadena> ::= '"' { <caracter> } '"' ;
->>>>>>> 573f7a37c79959aab3651d79946ac88861dc2ead:gramatica.txt
